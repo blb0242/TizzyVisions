@@ -1,0 +1,40 @@
+html{
+   background: url(../images/IMG_5934.JPG) no-repeat center center fixed; 
+    
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: visible;
+}
+
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    100% { right:0px; top:40px;}
+}
+
+
+
+#navlogo {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+#navlogo:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale3d(2.0, 2.0, 2.0); 
+    /*transform: translateY(25px);*/
+}
+
+
+video{
+    max-width: 100%;
+}

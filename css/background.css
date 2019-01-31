@@ -1,0 +1,32 @@
+body{
+    background-image: url(../images/bigSig.png), url(../images/bigTVlogo.png);
+    background-color: #1e0033;
+    background-position: 105% 0, 0% 0;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25%, 25%; 
+    -webkit-animation: swim 6s linear 0s 1;
+    animation: swim 6s linear 0s 1; 
+}
+
+
+@-webkit-keyframes swim {
+    from { background-position: 200% 0, -100% 0; }
+    to  { background-position: 50% 0, 50% 0; }
+}
+@keyframes swim {
+    from { background-position: 200% 0, -100% 0; }
+    50% { background-position: 60% 0, 40% 0;}
+    to  { background-position: 105% 0, 0% 0; }
+}
+
+#navlogo {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+#navlogo:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale3d(2.0, 2.0, 2.0); 
+    /*transform: translateY(25px);*/
+}
